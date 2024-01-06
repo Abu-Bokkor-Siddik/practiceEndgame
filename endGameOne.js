@@ -92,7 +92,24 @@
 //  console.log(Math.sqrt(8))
 
 // Date function
-const a = new Date 
-console.log(a.toDateString())
-console.log(a.toTimeString())
-console.log(a.toLocaleTimeString())
+// const a = new Date 
+// console.log(a.toDateString())
+// console.log(a.toTimeString())
+// console.log(a.toLocaleTimeString())
+
+
+// comments
+
+//  single 
+/*multiple*/
+
+// logic and conditions 
+let h =5
+if(h%2 == 0){
+console.log('event number')
+}else if(h%2 == 1){
+  console.log('not event number.  odd')
+}else{
+  console.log('not a number')
+}
+// switch conditions 
