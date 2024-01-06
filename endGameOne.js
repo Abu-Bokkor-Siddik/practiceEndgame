@@ -140,17 +140,63 @@
 
 // short hand of and  or 
 //  akhane name ta false value || oparetor ar jonno siddik asesse.
-let names = ''
-let fullname = names || 'siddik'
-console.log(fullname)
+// let names = ''
+// let fullname = names || 'siddik'
+// console.log(fullname)
 
-// abar 
-// akhane namess ta jehetu true arse ar jonno atai borse....
-let namess ='masud'
-let fullnamess = namess || 'siddik'
-console.log(fullnamess)
+// // abar 
+// // akhane namess ta jehetu true arse ar jonno atai borse....
+// let namess ='masud'
+// let fullnamess = namess || 'siddik'
+// console.log(fullnamess)
 
-// and and  
-//  true holei pore jabe ...
- let l = true 
- l && console.log('value true ')
+// // and and  
+// //  true holei pore jabe ...
+//  let l = true 
+//  l && console.log('value true ')
+
+
+// loop for loop , while loop , do while loop,
+// for loop 
+// for(let i = 1;i<100;i++){
+//   console.log(i,'i love my mother')
+// }
+
+// //  event number 
+// for(let i = 0;i<=100;i++){
+//   if(i%2==0){
+//     console.log(i,'i love my mother')
+//   }
+// }
+// //  odd nubmer 
+// let sum = 0;
+// for(let i = 0;i<=100;i++){
+//   if(i%2==1){
+//     console.log(i,'i love my mother')
+//      sum +=i
+//   }
+// }
+// console.log(sum)
+
+
+
+// while loop 
+//  let m = 0
+//  while(m<10){
+//   console.log('hi ')
+//   m++
+//  }
+//  lotary 
+
+
+
+ let istrue = true;
+ while(istrue){
+  let o = Math.floor(Math.random()*10)
+  if(o==9 ){
+    console.log('winner')
+    istrue=false
+  }else{
+    console.log('loser')
+  }
+ }
