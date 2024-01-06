@@ -1,7 +1,7 @@
 // function outPut(number) {
 //     return number / 2 !== 0;
 //   }
-  
+
 //   function number() {
 //     for (let i = 1; i <= 50; i++) {
 //       if (outPut(i)) {
@@ -9,24 +9,20 @@
 //       }
 //     }
 //   }
-  
+
 //   number();
 
 // console.log('hello world ')
 // console.log(Number.MAX_SAFE_INTEGER)
 // console.log(Number.MIN_SAFE_INTEGER)
 // console.log(Number.MAX_VALUE)
-// let abc 
+// let abc
 // let bcd = null
 // console.log(abc===bcd)
 // console.log(bcd)
 
-
-// false values 
+// false values
 // "",0,null,undefine,NaN
-
- 
-
 
 // arithmetic operators
 // +,-,*,/, % ,--,++
@@ -35,35 +31,30 @@
 // let a = 10;
 // console.log(a%3)
 
-
-// incremental 
+// incremental
 // pre Incremental  and Post incremental
-// post Increment  pore 1 increment kore . pre increment age increment kore 
+// post Increment  pore 1 increment kore . pre increment age increment kore
 // console.log(a++)
 // console.log(a)
 
-// pre increment 
+// pre increment
 // let b = 9;
 // console.log(++b)
 
+// decrement -- same as increment
 
-// decrement -- same as increment 
-
-
-
-// 2 Assignment operators 
+// 2 Assignment operators
 //  +=,-=,*=,/=
 //  let c = 10;
 //  let d = 20;
-//  c+=d 
+//  c+=d
 //  console.log(c)
 //  c-=d
 //  console.log(c)
-//  c/=d 
+//  c/=d
 //  console.log(c)
-//  c%=d 
+//  c%=d
 //  console.log(c)
-
 
 // 3 comparison  operators
 // == ,<,>,<= ,>= ,===(type ta soho korte chaile aita ) !(bang bole mane olte deoya )
@@ -71,14 +62,13 @@
 // let f = 10;
 // console.log(e<=f)
 
-
-// 4 logical  operators 
+// 4 logical  operators
 //  && and, || or, ! not
 
-// statements 
+// statements
 // js a jekono code ba line jeta kono ortho bujai take statement bole ...
 
-//  math function 
+//  math function
 // let g = 4.264
 //  console.log(Math.PI)
 //  console.log(Math.abs(g))
@@ -92,24 +82,56 @@
 //  console.log(Math.sqrt(8))
 
 // Date function
-// const a = new Date 
+// const a = new Date
 // console.log(a.toDateString())
 // console.log(a.toTimeString())
 // console.log(a.toLocaleTimeString())
 
-
 // comments
 
-//  single 
+//  single
 /*multiple*/
 
-// logic and conditions 
-let h =5
-if(h%2 == 0){
-console.log('event number')
-}else if(h%2 == 1){
-  console.log('not event number.  odd')
-}else{
-  console.log('not a number')
-}
-// switch conditions 
+// logic and conditions
+// let h = 5;
+// if (h % 2 == 0) {
+//   console.log("event number");
+// } else if (h % 2 == 1) {
+//   console.log("not event number.  odd");
+// } else {
+//   console.log("not a number");
+// }
+// // switch conditions
+// let i = new Date();
+// let j = i.getDay();
+// console.log(j);
+// switch (j) {
+//   case 0:
+//     console.log("saturday ");
+//     break;
+//   case 1:
+//     console.log("sunday");
+//     break;
+//   case 2:
+//     console.log("monday ");
+//     break;
+//   case 3:
+//     console.log("tuesday ");
+//     break;
+//   case 4:
+//     console.log("wednesday");
+//     break;
+//   case 5:
+//     console.log("thursday");
+//     break;
+//   case 6:
+//     console.log("friday ");
+//     break;
+//     default:
+//       console.log('not mutch')
+// }
+
+
+// ternary operators 
+let k = 20 ;
+console.log((k%2 ==0?'event number':'odd number'))
