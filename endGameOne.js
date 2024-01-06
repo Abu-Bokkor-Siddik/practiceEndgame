@@ -133,5 +133,24 @@
 
 
 // ternary operators 
-let k = 20 ;
-console.log((k%2 ==0?'event number':'odd number'))
+// let k = 20 ;
+// console.log((k%2 ==0?'event number':'odd number'))
+
+
+
+// short hand of and  or 
+//  akhane name ta false value || oparetor ar jonno siddik asesse.
+let names = ''
+let fullname = names || 'siddik'
+console.log(fullname)
+
+// abar 
+// akhane namess ta jehetu true arse ar jonno atai borse....
+let namess ='masud'
+let fullnamess = namess || 'siddik'
+console.log(fullnamess)
+
+// and and  
+//  true holei pore jabe ...
+ let l = true 
+ l && console.log('value true ')
