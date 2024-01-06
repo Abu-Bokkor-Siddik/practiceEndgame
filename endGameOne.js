@@ -77,3 +77,16 @@
 
 // statements 
 // js a jekono code ba line jeta kono ortho bujai take statement bole ...
+
+//  math function 
+let g = 4.264
+ console.log(Math.PI)
+ console.log(Math.abs(g))
+ console.log(Math.floor(g))
+ console.log(Math.ceil(g))
+ console.log(Math.round(g))
+ console.log(Math.max(33,444,456,577,666,4668))
+ console.log(Math.min(5445,44,5,3,1,2,0))
+ console.log(Math.floor(Math.random()*10))
+ console.log(Math.pow(2,4))
+ console.log(Math.sqrt(8))
