@@ -332,5 +332,7 @@ const ami =[
   [99,88,77,66,55,44,33]
 ]
 console.log(ami[1][5])
+console.log(s.join(" , "))
+console.log(Array.isArray(s))
 
 
