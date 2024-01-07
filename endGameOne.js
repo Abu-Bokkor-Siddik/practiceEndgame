@@ -237,19 +237,54 @@
 
 // nested loop 
  
-for (let i =1;i<=5;i++){
-  let result = ''
-  for(let k= 1;k<=i;k++){
-    result+=k+" "
-  }
-  console.log(result)
-}
-let numbers =10
-for(let l = 1 ; l<=10;l++){
-  let results =''
-  for(let n =1;n<=10;n++){
-    // console.log(l)
-    results+=n+" "
-  }
-  console.log(results)
-}
+// for (let i =1;i<=5;i++){
+//   let result = ''
+//   for(let k= 1;k<=i;k++){
+//     result+=k+" "
+//   }
+//   console.log(result)
+// }
+// let numbers =10
+// for(let l = 1 ; l<=10;l++){
+//   let results =''
+//   for(let n =1;n<=10;n++){
+//     // console.log(l)
+//     results+=n+" "
+//   }
+//   console.log(results)
+// }
+
+
+
+//  speape kora ...
+// for(m =1;m<=10;m++){
+//   if(m==3){
+//     continue
+
+//   }
+//   console.log(m)
+// }
+
+// for(o =1;o<=11;o++){
+//   if(o==5){
+ 
+//   break
+// }
+// console.log(o)
+// }
+
+
+
+// string 
+
+// string lateral
+console.log('hi man ')
+// constructor 
+console.log(String('yes man'))
+
+// escape 
+console.log('hi masud how are \'you\' ')
+
+const a = 'abc'
+const p ='ced'
+console.log(a<p)
