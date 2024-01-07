@@ -304,16 +304,33 @@
 const a = [1,2,3,4,5,6]
 // console.log(a[4])
 // console.log(a?.length)
-const s =[2,3,4,5,6,7,8,9]
+// const s =[2,3,4,5,6,7,8,9]
 // let sum = 0;
 // for(let a =0;a<s.length;a++){
 //   // console.log(s[a])
 //   sum+=s[a]
 // }
 // console.log(sum)
-for (let b =0;b<=s.length;b++){
-  // console.log(s [b])
-  if(s[b]%2 === 0){
-    console.log(s[b])
-  }
-}
+// for (let b =0;b<=s.length;b++){
+//   // console.log(s [b])
+//   if(s[b]%2 === 0){
+//     console.log(s[b])
+//   }
+// }
+
+// 
+
+const s =[2,3,4,5,6,7,8,9]
+console.log(s.splice(3,0,99))
+console.log(s)
+
+// Multidimensional Array
+// 2 dymontional array 
+const ami =[
+  [33,44,55,66,77,88,99],
+  [44,55,667,77,888,999],
+  [99,88,77,66,55,44,33]
+]
+console.log(ami[1][5])
+
+
