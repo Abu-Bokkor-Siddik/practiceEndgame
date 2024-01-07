@@ -191,7 +191,7 @@
 
 //  a doroner kaj ar jonno while loop asese ...
 
- let isTrue = true;
+//  let isTrue = true;
 //  let mission = "'Alhamdullilah','subhanallah','allahhuyak ber'"
 //  while(isTrue){
 //   let o = Math.floor(Math.random()*mission)
@@ -209,18 +209,19 @@
 // let randomWord = mission[Math.floor(Math.random() * mission.length)];
 
 // console.log(randomWord);
-// let counts = 1;
 
+
+// let counts = 1;
+// let isTrues = true
 // let mission = ['Alhamdullilah','SubhanAllah','Allahhuyak ber'];
-// while(counts<=33){
+// while(isTrues){
 //   let randomWord = mission[Math.floor(Math.random()*mission.length)]
-//   // console.log(counts,'hello')
-//   // console.log(randomWord)
-//   // console.log(mission)
-//   // if(randomWord=='Alhamdullilah' && randomWord=='SubhanAllah'&& randomWord=='Allahhuyak ber'){
-//   //   console.log('hello')
-    
-//   // }
+//   console.log(randomWord)
+ 
+//   if(randomWord==='Alhamdullilah'){
+//     isTrues=false
+//   }
+  
 //   counts++
 
 // }
@@ -290,11 +291,29 @@
 // console.log(a<p)
 
 
-let q ='My name is '
-let r = 'siddik        '
-console.log(q.concat(r))
-console.log(q.substr(4))
-console.log(q.charAt(4))
-console.log(r.trim())
-console.log(q.split(" "))
-console.log(q.length)
+// let q ='My name is '
+// let r = 'siddik        '
+// console.log(q.concat(r))
+// console.log(q.substr(4))
+// console.log(q.charAt(4))
+// console.log(r.trim())
+// console.log(q.split(" "))
+// console.log(q.length)
+
+// Array 
+const a = [1,2,3,4,5,6]
+// console.log(a[4])
+// console.log(a?.length)
+const s =[2,3,4,5,6,7,8,9]
+// let sum = 0;
+// for(let a =0;a<s.length;a++){
+//   // console.log(s[a])
+//   sum+=s[a]
+// }
+// console.log(sum)
+for (let b =0;b<=s.length;b++){
+  // console.log(s [b])
+  if(s[b]%2 === 0){
+    console.log(s[b])
+  }
+}
