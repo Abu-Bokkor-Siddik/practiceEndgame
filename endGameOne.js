@@ -189,14 +189,67 @@
 //  lotary 
 
 
+//  a doroner kaj ar jonno while loop asese ...
 
- let istrue = true;
- while(istrue){
-  let o = Math.floor(Math.random()*10)
-  if(o==9 ){
-    console.log('winner')
-    istrue=false
-  }else{
-    console.log('loser')
+ let isTrue = true;
+//  let mission = "'Alhamdullilah','subhanallah','allahhuyak ber'"
+//  while(isTrue){
+//   let o = Math.floor(Math.random()*mission)
+//   if(o =='Alhamdullilah' ){
+//     console.log('winner')
+//     isTrue=false
+//   }else{
+//     console.log('loser')
+//   }
+//  }
+// let mission = ['Alhamdullilah','SubhanAllah','Allahhuyak ber'];
+
+
+// Get a random word from the missionArray vvi array ar bitore disi ... random word 
+// let randomWord = mission[Math.floor(Math.random() * mission.length)];
+
+// console.log(randomWord);
+// let counts = 1;
+
+// let mission = ['Alhamdullilah','SubhanAllah','Allahhuyak ber'];
+// while(counts<=33){
+//   let randomWord = mission[Math.floor(Math.random()*mission.length)]
+//   // console.log(counts,'hello')
+//   // console.log(randomWord)
+//   // console.log(mission)
+//   // if(randomWord=='Alhamdullilah' && randomWord=='SubhanAllah'&& randomWord=='Allahhuyak ber'){
+//   //   console.log('hello')
+    
+//   // }
+//   counts++
+
+// }
+
+
+// do while loop  do ar code run hobe ... 
+// let is = false;
+// do{
+//   console.log('do while ')
+// }while(is)
+
+
+
+
+// nested loop 
+ 
+for (let i =1;i<=5;i++){
+  let result = ''
+  for(let k= 1;k<=i;k++){
+    result+=k+" "
   }
- }
+  console.log(result)
+}
+let numbers =10
+for(let l = 1 ; l<=10;l++){
+  let results =''
+  for(let n =1;n<=10;n++){
+    // console.log(l)
+    results+=n+" "
+  }
+  console.log(results)
+}
