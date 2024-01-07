@@ -277,14 +277,23 @@
 
 // string 
 
-// string lateral
-console.log('hi man ')
-// constructor 
-console.log(String('yes man'))
+// // string lateral
+// console.log('hi man ')
+// // constructor 
+// console.log(String('yes man'))
 
-// escape 
-console.log('hi masud how are \'you\' ')
+// // escape 
+// console.log('hi masud how are \'you\' ')
 
-const a = 'abc'
-const p ='ced'
-console.log(a<p)
+// const a = 'abc'
+// const p ='ced'
+// console.log(a<p)
+
+
+let q ='My name is '
+let r = 'siddik        '
+console.log(q.concat(r))
+console.log(q.substr(4))
+console.log(q.charAt(4))
+console.log(r.trim())
+console.log(q.split(" "))
