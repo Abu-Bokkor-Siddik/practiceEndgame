@@ -371,5 +371,11 @@ console.log('a' in w)
 for(let i in w){
   console.log(i + w[i])
 }
+console.log(Object.keys(w))
+console.log(Object.values(w))
+console.log(Object.entries(w))
+const obj = (Object.assign({},w))
+obj.p=400
+console.log(obj)
 
 
