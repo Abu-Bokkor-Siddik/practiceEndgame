@@ -366,5 +366,10 @@ let w={
 }
 // 
 console.log(v.a===w.a && v.b===v.b)
+// itaret
+console.log('a' in w)
+for(let i in w){
+  console.log(i + w[i])
+}
 
 
