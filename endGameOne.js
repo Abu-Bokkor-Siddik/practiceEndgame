@@ -378,4 +378,35 @@ const obj = (Object.assign({},w))
 obj.p=400
 console.log(obj)
 
+// function 
+function amis (n){
+  console.log('hi',n)
+}
+amis(44)
 
+function tume (n){
+return n
+}
+ let q =tume(34)
+ console.log(q)
+
+//  function expression  function act like an value ...
+let func = function(p){
+  console.log(p)
+}
+func(44)
+setTimeout(function(){
+  console.log('hi man')
+},1000)
+
+// inner function 
+function y (a,b){
+  function x (){
+    console.log(a, b)
+  } 
+  x()
+}
+
+y('hi','Siddik')
+//  scope holo kono variable declare korle value gula kotha kotha theke access korte parbo ... seta control kore thekek... 
+// end of basic js 
