@@ -335,4 +335,11 @@ console.log(ami[1][5])
 console.log(s.join(" , "))
 console.log(Array.isArray(s))
 
+let t ={
+  name:'masud',
+  age:23
+}
+t.favorite='blue'
+console.log(t)
+
 
