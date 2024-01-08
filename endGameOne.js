@@ -337,9 +337,34 @@ console.log(Array.isArray(s))
 
 let t ={
   name:'masud',
-  age:23
+  age:23,
+  3:33
 }
 t.favorite='blue'
 console.log(t)
+// array notetion
+console.log(t['age'])
+console.log(t['3'])
+
+// remove an property in object 
+let u ={
+  x:3,
+  y:4,
+  a:50
+}
+u['x']=undefined
+delete u.x
+console.log(u)
+// comparing two object
+let v={
+  a:3,
+  b:4
+}
+let w={
+  a:3,
+  b:4
+}
+// 
+console.log(v.a===w.a && v.b===v.b)
 
 
