@@ -425,6 +425,14 @@ function amiss (){
 }
 amiss()
 console.log(x)
-function ami(){
+function amie(){
   console.log('hello world ')
 }
+amie()
+
+// vvi importance 
+// ammi()
+let ammi = function (){
+console.log('ai function not hoisting ')
+}
+ammi()
