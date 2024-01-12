@@ -410,3 +410,21 @@ function y (a,b){
 y('hi','Siddik')
 //  scope holo kono variable declare korle value gula kotha kotha theke access korte parbo ... seta control kore thekek... 
 // end of basic js 
+
+// know about functional js 
+// pure function   akta function gokhon same value dive and same arggument nibe take pure function bole. and kono side effect thakbe na ...
+
+function z(a){
+  return a*a
+}
+console.log(z(3))
+// side effects
+var x = 10 
+function amiss (){
+ x = x*x
+}
+amiss()
+console.log(x)
+function ami(){
+  console.log('hello world ')
+}
